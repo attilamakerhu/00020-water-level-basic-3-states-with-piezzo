@@ -7,6 +7,7 @@ basic.forever(function () {
             # # # # #
             # # # # #
             `)
+        music.playTone(262, music.beat(BeatFraction.Whole))
     } else if (input.pinIsPressed(TouchPin.P1)) {
         basic.showLeds(`
             . . . . .
@@ -15,6 +16,7 @@ basic.forever(function () {
             . # # # .
             # # # # #
             `)
+        music.playTone(262, music.beat(BeatFraction.Whole))
     } else {
         basic.showLeds(`
             . . . . .
